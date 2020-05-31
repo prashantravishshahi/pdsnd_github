@@ -42,6 +42,12 @@ def most_common_day(df):
 
 #definition of most common start hour function
 def most_common_start_hour(df):
+    '''Finds and prints the most common hour of day .
+    Args:
+        bikeshare dataframe
+    Returns:
+        none
+    '''
     df['hour'] = df['Start Time'].dt.hour
     popular_hour=df['hour'].mode()[0]
     print('Most Popular Start Hour:',popular_hour)
