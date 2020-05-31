@@ -1,5 +1,11 @@
 #definition of input month function.
 def get_month():
+    '''Asks the user for a month and returns the specified month.
+    Args:
+        none.
+    Returns:
+        (tuple) Lower limit, upper limit of month for the bikeshare data.
+    '''
     months=['january','february','march','april','may','june']
     while True:
         month =input('\nWhich month of year? Choose january, february, march, april, may or june\n')
@@ -11,6 +17,12 @@ def get_month():
 
 #definition of input day function.
 def get_day():
+    '''Asks the user for a day and returns the specified day.
+    Args:
+        none.
+    Returns:
+        (tuple) Lower limit, upper limit of date for the bikeshare data.
+    '''
     days=['sunday','monday','tuesday','wednesday','thursday','friday','saturday']
     while True:
         day =input('\nWhich day of week? Choose sunday, monday, tuesday, wednesday, thursday, friday or saturday\n')
