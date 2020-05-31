@@ -7,7 +7,7 @@ CITY_DATA = { 'chi': 'chicago.csv',
               'was': 'washington.csv' }
 
 
-#definition of load data function
+#definition of load data function :- This function is used to load data once the user confirms the month and city
 def load_data(city, month, day):
     # Step to load the data file in the dataframe
     df = pd.read_csv(CITY_DATA[city])
@@ -105,7 +105,7 @@ def trip_duration_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*100)
-#definition of the statistics on bikeshare users function
+#definition of the statistics on bikeshare users function : This function takes the most of the time to execute.
 def user_stats(df,city):
     """Displays statistics on bikeshare users."""
     print('\nCalculating User Stats...\n')
