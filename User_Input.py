@@ -38,16 +38,16 @@ def get_filters():
     # get user input for city (chicago, New York City, Washingon). 
     citys=['chi','new','was']
     while True:
-        city =input('\nPlease choose one of the cities (chicago, new york city, washington)\n You can give first 3 letters:- ')
+        city =input('\nPlease choose one of the cities (chicago, new york city, washington)\n You can provide intial 3 letters:- ')
         city=city.lower()
         city = city[:3]
         if(city in citys):
             break
-        print("\nI'm sorry, The city you have entered is incorrect. Please try again.")
+        print("\nI'm sorry, The City you have entered is incorrect. Please try once more.")
     # get user input for filters (Month, Day, Both or not at all)
     while True:
         filters=['m','d','b','n']
-        filter =input('\nDo you want to filter using\m:Month\nd:Day\nb:Both\nn:No filters\nType m, d, b, or n\n')
+        filter =input('\nDo you wish to filter using\m:Month\nd:Day\nb:Both\nn:No filters\nType m, d, b, or n\n')
         if(filter in filters):
             break
     if(filter=='m'):
