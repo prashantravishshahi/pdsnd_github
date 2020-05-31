@@ -17,3 +17,7 @@ washington.csv
 
 ### Credits
 Udacity course was nice guide for this project.
+refered to below links: -
+1)http://greenteapress.com/thinkpython/html/index.html
+2) https://runestone.academy/runestone/books/published/pythonds/index.html
+3) https://docs.google.com/viewer?a=v&pid=sites&srcid=dnVrbWFsYmFzYS5jb218d3d3fGd4OjU3NWZjOWU1MTM4ZTI4OQ
